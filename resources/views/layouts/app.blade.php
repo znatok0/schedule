@@ -19,27 +19,27 @@
     
     <!-- Header -->
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="{{ url('/') }}"><img class="logo" src="/img/logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nac-item">
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Поиск по группе" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
-                    </form>
-                </li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{{ url('/') }}"><img class="logo" src="/img/index.jpeg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nac-item">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Поиск по группе" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     
     <!-- Schedule main body -->
     <div class="main-body">
-        <p class="week-p">Неделя №</p>
+        <p class="week-p" class="week-number"><img class="arrow" src="/img/back.png" alt="back">Неделя №1<img class="arrow" src="/img/next.png" alt="next"></p>
         <table class="table schedule">
             <thead>
                 <tr>

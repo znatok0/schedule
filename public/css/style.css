@@ -1,8 +1,12 @@
 body{
- 
+    font-family:'Gotham', sans-serif;
+    background-color:white;
+}
+header{
+    background-color:white;
 }
 .logo{
-    width:70px;
+    width:400px;
     height:auto;
 }
 div.main-body{
@@ -11,6 +15,8 @@ div.main-body{
 .table.schedule{
     width:80%;
     margin:0 auto;
+    text-align: center;
+    font-size:14px;
 }
 footer{
     margin-top:5%;
@@ -18,4 +24,11 @@ footer{
 }
 .week-p{
     text-align: center;
+}
+.arrow{
+    width:15px;
+    height:auto;
+}
+.week-number{
+    padding-top:2px
 }
